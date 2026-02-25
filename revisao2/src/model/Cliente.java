@@ -6,11 +6,6 @@ public class Cliente {
 
     public Cliente(){}
 
-    public Cliente(String nome, String email) {
-        this.nome = nome;
-        this.email = email;
-    }
-
     public String getNome() {
         return nome;
     }
@@ -33,4 +28,7 @@ public class Cliente {
                 "email='" + email + '\'' +
                 '}';
     }
+
+
+
 }

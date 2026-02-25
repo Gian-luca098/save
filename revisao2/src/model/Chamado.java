@@ -24,4 +24,73 @@ public class Chamado {
         this.cliente = cliente;
     }
 
+    public Integer getNumero() {
+        return numero;
+    }
+
+    public void setNumero(Integer numero) {
+        this.numero = numero;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public LocalDate getData() {
+        return data;
+    }
+
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public PrioridadeChamdo getPrioridade() {
+        return prioridade;
+    }
+
+    public void setPrioridade(PrioridadeChamdo prioridade) {
+        this.prioridade = prioridade;
+    }
+
+    public StatusChamado getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusChamado status) {
+        this.status = status;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    @Override
+    public String toString() {
+        return "Chamado{" +
+                "numero=" + numero +
+                ", titulo='" + titulo + '\'' +
+                ", data=" + data +
+                ", descricao='" + descricao + '\'' +
+                ", prioridade=" + prioridade +
+                ", status=" + status +
+                ", cliente=" + cliente +
+                '}';
+    }
+
 }
